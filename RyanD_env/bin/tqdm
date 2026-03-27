@@ -1,6 +1,6 @@
 #!/workspaces/DS1001-LABS-Projects/RyanD_env/bin/python3
 import sys
-from fontTools.ttx import main
+from tqdm.cli import main
 if __name__ == '__main__':
     sys.argv[0] = sys.argv[0].removesuffix('.exe')
     sys.exit(main())
